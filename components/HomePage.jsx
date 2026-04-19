@@ -172,7 +172,7 @@ export default function HomePage() {
             <motion.div variants={itemAnim} className="relative w-full max-w-[320px] lg:max-w-[400px] h-[350px] sm:h-[45vh] lg:h-[55vh] z-10">
               <div className="absolute inset-0 bg-[#FFA500] rounded-t-full blur-[80px] opacity-10" />
               <div className="absolute inset-0 rounded-t-full overflow-hidden border border-white/10 border-b-0 bg-[#111]">
-                <Image src="/me3.jpg" alt="Neelay Jain" fill className="object-cover object-top opacity-90 hover:opacity-100 transition-opacity duration-500" priority />
+                <Image src="/me2.jpg" alt="Neelay Jain" fill className="object-cover object-top opacity-90 hover:opacity-100 transition-opacity duration-500" priority />
                 <div className="absolute inset-0 bg-[linear-gradient(rgba(18,16,11,0)_50%,rgba(0,0,0,0.25)_50%),linear-gradient(90deg,rgba(255,0,0,0.06),rgba(0,255,0,0.02),rgba(0,0,255,0.06))] z-20 bg-[size:100%_2px,3px_100%] pointer-events-none" />
               </div>
               <motion.div animate={{ y: [0, -6, 0] }} transition={{ repeat: Infinity, duration: 5, ease: "easeInOut" }} className="absolute bottom-6 -left-4 lg:bottom-8 lg:-left-8 bg-[#000]/80 backdrop-blur-md border border-[#333] px-4 py-3 rounded-lg flex items-center gap-3 z-30 shadow-xl">
